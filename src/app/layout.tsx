@@ -7,6 +7,7 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Lato } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
 
 
@@ -41,10 +42,14 @@ export const metadata: Metadata = {
   },
 };
 
-const lato = Lato({
-  variable: "--font-lato",
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
-  weight: ["100", "300", "400", "700", "900"]
+});
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
 });
 
 export default function RootLayout({
@@ -55,7 +60,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${lato.variable} antialiased`}>
+        <body className={`${montserrat.variable} ${inter.variable} antialiased`}>
           <Tag />
           {children}
           <script
