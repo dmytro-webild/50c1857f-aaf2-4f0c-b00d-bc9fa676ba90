@@ -167,6 +167,10 @@ export default function LandingPage() {
           id: "m4",          name: "Spicy Noodle Soup",          price: "$13.25",          variant: "Asian Fusion",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EmHLo50h7hLGTJnVuF84xVMBpP/uploaded-1780779785137-7s3w2gok.jpg",          imageAlt: "Hearty Spicy Noodle Soup"},
         {
           id: "m5",          name: "Decadent Chocolate Cake",          price: "$8.99",          variant: "Dessert Special",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EmHLo50h7hLGTJnVuF84xVMBpP/uploaded-1780779785137-xxt6epc1.jpg",          imageAlt: "Irresistible Decadent Chocolate Cake"},
+        {
+          id: "m6",          name: "Fresh Seafood Platter",          price: "$28.00",          variant: "Ocean Harvest",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EmHLo50h7hLGTJnVuF84xVMBpP/uploaded-1780781406581-ty9uya85.jpg",          imageAlt: "Fresh Seafood Platter with lemon and herbs"},
+        {
+          id: "m7",          name: "Vegetable Curry",          price: "$16.00",          variant: "Spicy Vegan",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EmHLo50h7hLGTJnVuF84xVMBpP/uploaded-1780781406581-muvuojea.jpg",          imageAlt: "Vibrant Vegetable Curry with rice"}
       ]}
       title="Discover Our Latest Menu Additions"
       description="Experience fresh flavors and exciting new dishes, crafted with the finest ingredients and culinary passion."
@@ -249,28 +253,22 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "t1",          name: "Sarah J.",          role: "Food Critic",          company: "Culinary Explorer",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-senior-man-posing-studio_23-2151156355.jpg"
+          id: "t1",          name: "Sarah J.",          role: "Food Critic",          company: "Culinary Explorer",          rating: 5
         },
         {
-          id: "t2",          name: "Michael C.",          role: "Local Guide",          company: "TasteBuds Blog",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/good-job-happy-smiling-business-man-suit-holding-laptop-showing-thumb-up-praise-you-nice-work_1258-173635.jpg"
+          id: "t2",          name: "Michael C.",          role: "Local Guide",          company: "TasteBuds Blog",          rating: 5
         },
         {
-          id: "t3",          name: "Emily R.",          role: "Travel Blogger",          company: "Worldly Bites",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-asian-man-friends-reunion_23-2149244687.jpg"
+          id: "t3",          name: "Emily R.",          role: "Travel Blogger",          company: "Worldly Bites",          rating: 5
         },
         {
-          id: "t4",          name: "David K.",          role: "Frequent Diner",          company: "Gourmet Adventures",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/smiley-older-man-city-listening-music-headphones_23-2148991083.jpg"
+          id: "t4",          name: "David K.",          role: "Frequent Diner",          company: "Gourmet Adventures",          rating: 5
         },
         {
-          id: "t5",          name: "Jessica L.",          role: "Chef",          company: "The Flavor Hub",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-person-presenting-new-year-2023_1048-17676.jpg"
+          id: "t5",          name: "Jessica L.",          role: "Chef",          company: "The Flavor Hub",          rating: 5
         },
         {
-          id: "t6",          name: "Robert G.",          role: "Restaurant Owner",          company: "Global Flavors",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-cartoon-style_23-2151134201.jpg"
+          id: "t6",          name: "Robert G.",          role: "Restaurant Owner",          company: "Global Flavors",          rating: 5
         },
       ]}
       title="What Our Guests Say"
