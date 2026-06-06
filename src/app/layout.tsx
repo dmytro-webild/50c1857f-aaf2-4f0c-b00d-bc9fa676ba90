@@ -13,8 +13,8 @@ import { Libre_Baskerville } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'Tasty Station Restaurant | One Destination, Every Flavor',
-  description: 'Experience the world\'s finest multicultural cuisine at Tasty Station Restaurant. From Arabic to Indian, Filipino, Chinese, and Continental dishes, explore authentic and delicious flavors under one roof. Reserve your table or order online today!',
+  title: "Tasty Station Restaurant | One Destination, Every Flavor",
+  description: "Experience the world's finest multicultural cuisine at Tasty Station Restaurant. From Arabic to Indian, Filipino, Chinese, and Continental dishes, explore authentic and delicious flavors under one roof. Reserve your table or order online today!",
   keywords: ["restaurant, multicultural cuisine, arabic food, indian food, filipino food, chinese food, continental food, fine dining, international cuisine, tasty station, food, menu, reservations, online ordering"],
   openGraph: {
     "title": "Tasty Station Restaurant | One Destination, Every Flavor",
