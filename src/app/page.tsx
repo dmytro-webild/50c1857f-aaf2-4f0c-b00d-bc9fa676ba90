@@ -158,20 +158,18 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "p1",          name: "Butter Chicken",          price: "$18.99",          variant: "Indian Cuisine",          imageSrc: "http://img.b2bpic.net/free-photo/chicken-red-curry-bowl-with-dried-chilies-basil-cucumber-long-beans_1150-27059.jpg",          imageAlt: "Rich Butter Chicken with Naan Bread"},
+          id: "m1",          name: "Gourmet Burger",          price: "$15.50",          variant: "American Classic",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EmHLo50h7hLGTJnVuF84xVMBpP/uploaded-1780779785137-dr76fxgw.jpg",          imageAlt: "Delicious Gourmet Burger"},
         {
-          id: "p2",          name: "Grilled Steak",          price: "$32.50",          variant: "Continental Cuisine",          imageSrc: "http://img.b2bpic.net/free-photo/steak-served-with-grilled-vegetables-sour-cream_7502-7084.jpg",          imageAlt: "Perfectly cooked Grilled Steak with asparagus"},
+          id: "m2",          name: "Creamy Pasta",          price: "$14.00",          variant: "Italian Delight",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EmHLo50h7hLGTJnVuF84xVMBpP/uploaded-1780779785137-ky4c6tsv.jpg",          imageAlt: "Rich Creamy Pasta"},
         {
-          id: "p3",          name: "Chicken Adobo",          price: "$16.75",          variant: "Filipino Cuisine",          imageSrc: "http://img.b2bpic.net/free-photo/fried-shrimps-with-red-green-peppers-wooden-cutting-board_141793-1660.jpg",          imageAlt: "Authentic Filipino Chicken Adobo with rice"},
+          id: "m3",          name: "Healthy Salad Bowl",          price: "$12.75",          variant: "Fresh & Light",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EmHLo50h7hLGTJnVuF84xVMBpP/uploaded-1780779785137-ibk973bp.jpg",          imageAlt: "Vibrant Healthy Salad Bowl"},
         {
-          id: "p4",          name: "Kung Pao Chicken",          price: "$17.25",          variant: "Chinese Cuisine",          imageSrc: "http://img.b2bpic.net/free-photo/vegetable-soup-with-beef-leg_140725-6384.jpg",          imageAlt: "Spicy Kung Pao Chicken with vegetables"},
+          id: "m4",          name: "Spicy Noodle Soup",          price: "$13.25",          variant: "Asian Fusion",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EmHLo50h7hLGTJnVuF84xVMBpP/uploaded-1780779785137-7s3w2gok.jpg",          imageAlt: "Hearty Spicy Noodle Soup"},
         {
-          id: "p5",          name: "Chicken Biryani",          price: "$19.50",          variant: "Indian Cuisine",          imageSrc: "http://img.b2bpic.net/free-photo/arrangement-with-delicious-pakistan-meal_23-2148821529.jpg",          imageAlt: "Aromatic Chicken Biryani"},
-        {
-          id: "p6",          name: "Lamb Shawarma Platter",          price: "$20.00",          variant: "Arabic Cuisine",          imageSrc: "http://img.b2bpic.net/free-photo/doner-kebab-roasting-spti_53876-34017.jpg",          imageAlt: "Delicious Lamb Shawarma Platter"},
+          id: "m5",          name: "Decadent Chocolate Cake",          price: "$8.99",          variant: "Dessert Special",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3EmHLo50h7hLGTJnVuF84xVMBpP/uploaded-1780779785137-xxt6epc1.jpg",          imageAlt: "Irresistible Decadent Chocolate Cake"},
       ]}
-      title="Signature Dishes & Popular Delights"
-      description="Discover the exquisite taste of our most loved and highly recommended culinary creations, perfect for any craving."
+      title="Discover Our Latest Menu Additions"
+      description="Experience fresh flavors and exciting new dishes, crafted with the finest ingredients and culinary passion."
       buttons={[
         {
           text: "Order Online",          href: "#"},
@@ -187,30 +185,30 @@ export default function LandingPage() {
       plans={[
         {
           id: "family-deal",          badge: "Value",          badgeIcon: Sparkles,
-          price: "From $49.99",          subtitle: "Perfect for family gatherings",          buttons: [
+          price: "From $54.99",          subtitle: "Perfect for family gatherings",          buttons: [
             {
               text: "View Deal",              href: "#"},
           ],
           features: [
-            "Choose 2 Main Courses",            "Includes 4 Sides",            "Complimentary Dessert",            "Serves 4-5 People"],
+            "Choose 3 Main Courses",            "Includes 4 Sides",            "Complimentary Dessert Platter",            "Serves 4-5 People"],
         },
         {
           id: "weekend-buffet",          badge: "Popular",          badgeIcon: Star,
-          price: "$29.99/person",          subtitle: "All-you-can-eat international buffet",          buttons: [
+          price: "$34.99/person",          subtitle: "All-you-can-eat international buffet",          buttons: [
             {
               text: "Learn More",              href: "#"},
           ],
           features: [
-            "Unlimited Arabic & Indian Dishes",            "Live Cooking Stations",            "Includes Soft Drinks",            "Available Saturdays & Sundays"],
+            "Unlimited Arabic, Indian & Asian Dishes",            "Live Cooking Stations",            "Includes Soft Drinks & Juices",            "Available Saturdays & Sundays"],
         },
         {
           id: "lunch-specials",          badge: "Daily",          badgeIcon: Sun,
-          price: "From $12.99",          subtitle: "Quick and delicious weekday meals",          buttons: [
+          price: "From $14.99",          subtitle: "Quick and delicious weekday meals",          buttons: [
             {
               text: "See Specials",              href: "#"},
           ],
           features: [
-            "Rotating Daily Specials",            "Includes Drink & Starter",            "Available Mon-Fri (12 PM - 3 PM)",            "Dine-in Only"],
+            "Rotating Daily Specials",            "Includes Drink, Starter & Dessert",            "Available Mon-Fri (12 PM - 3 PM)",            "Dine-in Only"],
         },
       ]}
       title="Exclusive Special Offers"
